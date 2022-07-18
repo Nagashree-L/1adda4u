@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration for Institution</title>
+    <link rel="stylesheet" href="./institutionreg.css">
+</head>
+<body>
+    <header class="box">
+        <button type="menu" class="profile_button">
+            <span class="acc-b-text">ACCOUNT</span>
+            <span class="acc-b-button"
+            ><ion-icon name="person-outline"></ion-icon>
+            </span>
+        </button>
+    
+        <button type="button" class="logout_button">
+            <span class="log-b-text">LOGOUT</span>
+            <span class="log-b-button"
+            ><ion-icon name="log-out-outline"></ion-icon>
+            </span>
+        </button>           
+    </header>
+    
+    
+    
+    <span class="container"> 
+    <img src="logo_1.jpeg" class="logo"> 
+    <span>
+      <button type="button" class="institutions"><a href="./institution.html">Institutions</a></button>
+      <button type="button" class="dashboard"><a href="./dashboard.html">Dashboard</a></button>
+      <button type="button" class="statistics"><a href="./statistics.html">Statistics</a></button>
+      <button type="button" class="complaints"><a href="./complaints.html">Complaints</a></button>
+      <button type="button" class="history"><a href="./history.html">History</a></button>
+    </span>
+    </span>
+
+    <div class="container1">
+      <div class="title">Registration</div>
+      <div class="content">
+        <form action="save.html" method="get" enctype="multipart/form-data">
+
+          <div class="user-details">
+
+            <div class="input-box">
+              <span class="details">Institution's Name</span>
+              <input type="text" placeholder="Enter the institution name" required>
+            </div>
+
+            <div class="input-box">
+              <span class="details">Contact Number</span>
+              <input type="tel" placeholder="Enter contact number" required>
+            </div>
+
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input type="email" placeholder="Enter your email" required>
+            </div>
+            
+            <div class="input-box">
+              <span class="details">Address</span>
+              <input type="text" placeholder="Enter the address" required>
+            </div>
+
+            <div class="input-box">
+              <span class="details">City</span>
+              <input type="text" placeholder="Enter the city" required>
+            </div>
+
+          </div>
+         
+          <div class="button">
+            <input type="submit" value="Register">
+          </div>
+
+        </form>
+      </div>
+    </div>
+    
+    
+        <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+
+</body>
+</html>

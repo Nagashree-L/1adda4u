@@ -1,0 +1,168 @@
+body {
+    background-image: url("./bgimg.jpg");
+    position: relative;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.login-form {
+  color: #ffffff;
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  justify-content: space-between;
+}
+
+.password-container {
+  margin-top: 30px;
+}
+
+.logo-img {
+    padding: 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  
+ #login-button {
+   margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color: #04aaa7;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+#login-button a {
+  text-decoration: none;
+  color: white;
+}
+
+#login-button:hover {
+  opacity: 0.8;
+}
+
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 10px;
+    min-width: 400px;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    align-content: center;
+  }
+
+.container input {
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.next-container {
+  position: relative;
+  font-size: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+.signup a {
+  text-decoration: none;
+}
+
+.signup::after {
+  content: '';
+  position: absolute;
+  width: 20%;
+  height: 2px;
+  left: 50px;
+  bottom: 0;
+  background: white;
+}
+
+.signup::after {
+  transform: scale(0,1);
+}
+
+.signup:hover::after {
+  transform: scale(1,1);
+}
+
+
+.psw a {
+  text-decoration: none;
+}
+
+.psw::after {
+  content: '';
+  position: absolute;
+  width: 43%;
+  height: 2px;
+  left: 195px;
+  bottom: 0;
+  background: white;
+}
+
+.psw::after {
+  transform: scale(0,1);
+}
+
+.psw:hover::after {
+  transform: scale(1,1);
+}
+
+.remember-me {
+  font-size: 20px;
+}
+
+.next-container a {
+  color: #ffffff;
+}
+
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: flex;
+      float: none;
+  }
+}
